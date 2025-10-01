@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/saludosdb
+    username: saludos
+    password: saludos
+  jpa:
+    hibernate:
+      ddl-auto: none   # el esquema lo crean tus scripts SQL
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+
+server:
+  port: 8080
