@@ -2,14 +2,10 @@ package es.ejemplo.hola_mundo.entidades;
 
 import jakarta.persistence.*;
 
-@Entity
-@Table(name = "saludos")
+@Entity @Table(name = "saludos")
 public class Saludo {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column(nullable = false)
     private String mensaje;
 

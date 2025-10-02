@@ -3,7 +3,6 @@ package es.ejemplo.hola_mundo.controller;
 import es.ejemplo.hola_mundo.entidades.Saludo;
 import es.ejemplo.hola_mundo.repos.SaludoRepository;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
